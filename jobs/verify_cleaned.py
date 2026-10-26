@@ -1,3 +1,8 @@
+"""Reads the cleaned Parquet output and verifies the resulting records. Your successful run showed trip durations of 15, 20, 35, and 30 minutes for the four retained trip IDs.
+
+Why it matters: a successful write alone is not enough; you also want to confirm that the output is readable and contains the expected results."""
+
+
 from pathlib import Path
 from pyspark.sql import SparkSession
 

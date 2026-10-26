@@ -1,3 +1,7 @@
+"""Performs the transformation and writes the cleaned Parquet dataset. The output you verified contained four trip IDs: 1, 2, 4, and 7.
+
+Concepts to understand: filtering, deduplication, data types, DataFrame transformations, and writing output. Check the actual code to see the precise rule applied to each record."""
+
 from pathlib import Path
 
 from pyspark.sql import SparkSession

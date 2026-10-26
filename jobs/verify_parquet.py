@@ -1,3 +1,5 @@
+"""A supporting script for checking Parquet output. It is useful for testing that data was written and can be read independently of the complete Airflow workflow."""
+
 
 from pathlib import Path
 from pyspark.sql import SparkSession

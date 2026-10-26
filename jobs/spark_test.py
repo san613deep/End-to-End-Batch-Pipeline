@@ -1,3 +1,6 @@
+"""A small Spark test or diagnostic script. It helps validate the Spark environment independently from the main pipeline."""
+
+
 import os
 import sys
 

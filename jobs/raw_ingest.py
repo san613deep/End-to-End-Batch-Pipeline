@@ -1,3 +1,9 @@
+"""Reads taxi_trips.csv, creates a Spark DataFrame, adds ingestion metadata, and writes the raw Parquet output.
+
+Concepts to understand: SparkSession, DataFrame, CSV reading, column creation, output paths, and .write.parquet()."""
+
+
+
 import os
 import sys
 from datetime import datetime, timezone

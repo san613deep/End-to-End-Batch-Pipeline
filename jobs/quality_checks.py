@@ -1,3 +1,8 @@
+"""Inspects the data for known quality problems, including duplicate trip IDs, missing values, invalid distances, and negative fares.
+
+Important distinction: a quality report identifies problems; it does not necessarily repair them. The transformation job is responsible for producing the cleaned output."""
+
+
 from pathlib import Path
 
 from pyspark.sql import SparkSession
